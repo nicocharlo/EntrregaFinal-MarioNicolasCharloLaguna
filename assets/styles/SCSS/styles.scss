@@ -4,20 +4,15 @@ main {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(129, 150, 197);
-
     flex-flow: row wrap;
     justify-content: space-between;
 }
 
-main section {
-    width: 20%;
-    padding: 10px;
-}
+
 
 
 body{
-  background-color: rgb(192, 241, 241);
+  background-color: #FDF8F0;
 }
 p, a, h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
@@ -32,8 +27,12 @@ p, a, h1 {
     background-color: rgb(8, 82, 141);;
     font-weight: bold;
     padding: 10px 5% 10px 5%;
+    border-radius: 5px;
   }
   
+  .navigation div {
+    margin-top: 15px;
+  }
   .navigation h1 {
     color: rgb(227, 228, 252);
     font-size: 1.8rem;
@@ -62,19 +61,19 @@ p, a, h1 {
   }
   
   .fa-facebook {
-    background-image: url("../icons/facebook-svgrepo-com.svg");
+    background-image: url("../../icons/facebook-svgrepo-com.svg");
   }
   
   .fa-square-instagram {
-    background-image: url("../icons/instagram-round-svgrepo-com.svg");
+    background-image: url("../../icons/instagram-round-svgrepo-com.svg");
   }
   
   .fa-square-twitter {
-    background-image: url("../icons/twitter-round-svgrepo-com.svg");
+    background-image: url("../../icons/twitter-round-svgrepo-com.svg");
   }
   
   .fa-youtube {
-    background-image: url("../icons/youtube-round-svgrepo-com.svg");
+    background-image: url("../../icons/youtube-round-svgrepo-com.svg");
   }
   
 .footer {
@@ -82,6 +81,7 @@ p, a, h1 {
   background-color: rgb(66, 207, 109);
   display: flex;
   justify-content: center;
+  border-radius: 5px;
 }
 
 .footer a {
@@ -131,4 +131,18 @@ row-gap: 10px;
   }
 }
 
+section div{
+  width: 20%;
+  padding: 10px;
+}
 
+.container {
+  width: 90%;                 
+  margin: 0 auto;              
+  padding: 30px;               
+  border: 2px solid #ccc;      
+  border-radius: 10px;         
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  background-color: #6ACFC7;   
+  text-align: center;          
+}
