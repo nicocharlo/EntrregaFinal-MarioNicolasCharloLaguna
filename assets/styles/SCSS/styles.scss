@@ -146,3 +146,31 @@ section div{
   background-color: #6ACFC7;   
   text-align: center;          
 }
+
+
+.scale {
+  transform: scale(1.5);
+}
+
+.scaleXY {
+  transform: scale(2, 0.5);
+}
+
+/* Transformaciones */
+.transformationsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+.transition-scale {
+  background-color: #9b59b6;
+  transition: transform 3s ease;
+  border-radius: 10px;
+}
+
+.transition-scale:hover {
+  transform: scale(1.2);
+  border-radius: 10px;
+}
